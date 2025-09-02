@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【15周年記念】サウンドステーションあどがわ｜ヤマハ音楽・英語教室</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <style>
+        /* === 基本設定 === */
+        :root {
+            --base-bg-color: #F9F9F7; /* オフホワイトの背景 */
+            --text-color: #424242; /* ダークグレーのテキスト */
+            --primary-color: #00838F; /* くすんだ青緑 */
+            --accent-yellow: #E6A23C; /* アクセントの黄色 */
+            --accent-pink: #D81B60;   /* アクセントのピンク */
+            --dark-color: #333333;    /* ボタンなどの濃い色 */
+            --light-gray: #f0f0f0;    /* 薄いグレー */
+            --font-serif: 'Noto Serif JP', serif;
+            --font-sans: 'Noto Sans JP', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            margin: 0;
+            color: var(--text-color);
+            background-color: var(--base-bg-color);
+            line-height: 1.9;
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        section {
+            padding: 100px 0;
+        }
+
+        h1, h2, h3 {
+            font-family: var(--font-serif);
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 60px;
+            color: var(--dark-color);
+            letter-spacing: 0.1em;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        /* === ボタン共通スタイル === */
+        .btn {
+            display: inline-block;
+            background: var(--dark-color);
+            color: #fff;
+            padding: 14px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1rem;
+            border: 2px solid var(--dark-color);
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        .btn:hover {
+            background: #fff;
+            color: var(--dark-color);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--dark-color);
+            border: 2px solid var(--dark-color);
+        }
+        .btn-outline:hover {
+            background: var(--dark-color);
+            color: #fff;
+        }
+
+        /* レスポンシブ設定 */
+        @media (max-width: 768px) {
+            .section-title {
+                font-size: 1.8rem;
+                margin-bottom: 40px;
+            }
+            section {
+                padding: 60px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ============================================= -->
+<!-- ========== 1. ヘッダー＆メインビジュアル ========== -->
+<!-- ============================================= -->
+<header style="padding: 25px 0;">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+        <!-- ↓ ロゴ画像をここに配置してください (例: <img src="logo.png" alt="ロゴ">) -->
+        <div class="logo">
+            <a href="#" style="text-decoration: none; color: inherit; font-family: var(--font-serif); font-size: 1.2rem; font-weight: bold;">サウンドステーションあどがわ</a>
+        </div>
+        <a href="#contact" class="btn" style="padding: 10px 25px;">お問い合わせ</a>
+    </div>
+</header>
+
+<main>
+    <section id="hero" style="padding-top: 60px; padding-bottom: 80px; text-align: center;">
+        <div class="container" style="display: flex; justify-content: center; align-items: center; gap: 40px;">
+            <!-- ↓ メインビジュアルのイラストを配置するエリア -->
+            <!-- 例: <img src="music-illustration.svg" alt="音楽のイラスト" style="width: 200px;"> -->
+            <!-- ↓ メインビジュアルのイラストを配置するエリア -->
+<div class="hero-illustration" style="width: 200px; height: 200px; background-color: #e0e0e0; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+
+    <!-- このimgタグを修正します -->
+    <img src="images/AdobeStock_737684186.jpeg" alt="春の花のイラスト" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
+
+</div>
+            <div class="hero-text">
+                <h1 style="writing-mode: vertical-rl; font-size: 2.8rem; letter-spacing: 0.2em; margin: 0; padding: 20px 0;">人と音をつなぐ。</h1>
+                <p style="writing-mode: vertical-rl; margin: 0; padding-left: 10px; border-left: 1px solid var(--text-color);">おかげさまで開講十五周年</p>
+            </div>
+        </div>
+        <!-- スマホ表示用のレイアウト -->
+        <style>
+            @media (max-width: 600px) {
+                #hero .container { flex-direction: column; }
+                #hero .hero-text { display: flex; align-items: center; margin-top: 30px; }
+                #hero h1 { writing-mode: horizontal-tb; font-size: 2rem; }
+                #hero p { writing-mode: horizontal-tb; border-left: none; padding-left: 0; margin-left: 20px; max-width: 150px; text-align: left;}
+            }
+        </style>
+    </section>
+
+<!-- ============================================= -->
+<!-- ========== 2. 教室紹介動画 ========== -->
+<!-- ============================================= -->
+<section id="movie" style="background-color: #fff;">
+    <div class="container">
+        <h2 class="section-title">楽しい・明るい・優しい教室</h2>
+        <div class="youtube-wrapper" style="position: relative; padding-bottom: 56.25%; /* 16:9 */ height: 0; overflow: hidden; max-width: 100%; background: #000; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+            <!-- ↓ YouTube動画の埋め込みコードをここに貼り付けてください -->
+            <!-- YouTube動画URLの「watch?v=」の後ろの文字列を下の「ここにYouTube動画ID」の部分と差し替えてください -->
+            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                src="https://www.youtube.com/embed/ここにYouTube動画ID" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================= -->
+<!-- ========== 3. 15周年記念キャンペーン ========== -->
+<!-- ============================================= -->
+<section id="campaign">
+    <div class="container" style="text-align: center;">
+        <h2 class="section-title">15th Anniversary Campaign</h2>
+        <div style="background-color: #fff; border: 1px solid var(--light-gray); padding: 50px 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
+            <p style="font-size: 1.2rem; font-family: var(--font-serif); margin: 0;">感謝を込めて、期間限定の特別キャンペーン</p>
+            <p style="font-size: 2.8rem; font-weight: bold; color: var(--accent-pink); margin: 20px 0; font-family: var(--font-serif);">入会金 半額</p>
+            <p style="font-size: 1rem; display: inline-block; border-top: 1px solid var(--text-color); border-bottom: 1px solid var(--text-color); padding: 5px 0;">キャンペーン期間：2026年3月末まで</p>
+            <p style="margin-top: 30px; max-width: 500px; margin-left: auto; margin-right: auto;">新しいことを始めるなら今がチャンスです。<br>この機会にぜひ、音楽の世界に触れてみませんか？</p>
+            <a href="#contact" class="btn" style="margin-top: 20px;">まずは無料体験レッスンへ</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================= -->
+<!-- ========== 4. レッスン風景（ギャラリー） ========== -->
+<!-- ============================================= -->
+<section id="gallery" style="background-color: #fff;">
+    <div class="container">
+        <h2 class="section-title">大人も子どもも楽しめるレッスン</h2>
+        <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px;">
+            <!-- ↓ ギャラリー画像を6枚分用意しました。画像とテキストを差し替えてください。 -->
+            <div class="card" style="background: #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.08); overflow: hidden;">
+                <!-- ↓ 画像を差し替え -->
+                <img src="https://via.placeholder.com/400x300/00838F/fff?text=Yamaha+Music" alt="ヤマハ音楽教室" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <span style="background-color: var(--primary-color); color: #fff; font-size: 0.8rem; padding: 4px 10px; border-radius: 4px;">ヤマハ音楽教室</span>
+                    <h3 style="text-align: left; font-size: 1.2rem; margin: 15px 0 5px;">グループレッスンで確かな力を</h3>
+                    <p style="margin: 0; font-size: 0.9rem;">お友達と一緒だからもっと楽しい！音楽の基礎を学びます。</p>
+                </div>
+            </div>
+            <div class="card" style="background: #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.08); overflow: hidden;">
+                <!-- ↓ 画像を差し替え -->
+                <img src="https://via.placeholder.com/400x300/E6A23C/fff?text=Yamaha+English" alt="ヤマハ英語教室" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <span style="background-color: var(--accent-yellow); color: #fff; font-size: 0.8rem; padding: 4px 10px; border-radius: 4px;">ヤマハ英語教室</span>
+                    <h3 style="text-align: left; font-size: 1.2rem; margin: 15px 0 5px;">使える英語力を育てます</h3>
+                    <p style="margin: 0; font-size: 0.9rem;">音楽に合わせて、自然に楽しく英語が身につきます。</p>
+                </div>
+            </div>
+            <div class="card" style="background: #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.08); overflow: hidden;">
+                <!-- ↓ 画像を差し替え -->
+                <img src="https://via.placeholder.com/400x300/D81B60/fff?text=Violin+Lesson" alt="ヴァイオリンレッスン" style="width: 100%; height: 200px; object-fit: cover;">
+                <div style="padding: 20px;">
+                    <span style="background-color: var(--accent-pink); color: #fff; font-size: 0.8rem; padding: 4px 10px; border-radius: 4px;">ヴァイオリン</span>
+                    <h3 style="text-align: left; font-size: 1.2rem; margin: 15px 0 5px;">入門から専門的な指導まで</h3>
+                    <p style="margin: 0; font-size: 0.9rem;">一人ひとりのペースに合わせた丁寧な指導が魅力です。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================= -->
+<!-- ========== 5. アクセス ========== -->
+<!-- ============================================= -->
+<section id="access">
+    <div class="container">
+        <h2 class="section-title">アクセス</h2>
+        <div class="access-map" style="position: relative; padding-bottom: 50%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 30px;">
+            <!-- ↓ Google Mapの埋め込みコードを貼り付けてください -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.802111005116!2d135.9868720156942!3d35.48514588024095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600171a646c2438b%3A0x6b44749f7e446580!2z44CSNTIxLTAxMjEg5ruL6LOA55yM6auY5bO25biC5a6T6Zuy5bed55S66KW_5LiH5pyoNTU!5e0!3m2!1sja!2sjp!4v1684300000000!5m2!1sja!2sjp" width="600" height="450" style="border:0; position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div style="text-align: center;">
+            <p style="font-size: 1.2rem; font-weight: bold; margin-bottom: 10px;">株式会社トリイ サウンドステーションあどがわ</p>
+            <p style="margin: 0;">〒520-1217 滋賀県高島市安曇川町西万木55 平和堂あどがわ店北側</p>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================= -->
+<!-- ========== 6. お問い合わせ ========== -->
+<!-- ============================================= -->
+<section id="contact" style="background-color: #fff;">
+    <div class="container">
+        <h2 class="section-title">お問い合わせ</h2>
+        
+        <div class="contact-info" style="text-align: center; margin-bottom: 50px; border: 1px solid var(--light-gray); padding: 30px;">
+            <p style="margin: 0; font-size: 1rem;">お電話でのお問い合わせはこちら</p>
+            <p style="font-size: 2.2rem; font-weight: bold; margin: 5px 0;">
+                <a href="tel:0740-22-2063" style="color: var(--text-color); text-decoration: none;">0740-22-2063</a>
+            </p>
+            <p style="margin: 0; font-size: 0.9rem;">（受付：株式会社トリイ今津本店／10:00〜18:00）</p>
+        </div>
+
+        <form action="https://formspree.io/f/meolqdwz" method="POST" class="contact-form" style="max-width: 600px; margin: 0 auto;">
+            <div class="form-group" style="margin-bottom: 25px;">
+                <label for="name" style="display: block; margin-bottom: 8px; font-weight: bold;">お名前 <span style="color: var(--accent-pink); font-size: 0.8em;">必須</span></label>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; background: var(--base-bg-color);">
+            </div>
+            <div class="form-group" style="margin-bottom: 25px;">
+                <label for="email" style="display: block; margin-bottom: 8px; font-weight: bold;">メールアドレス <span style="color: var(--accent-pink); font-size: 0.8em;">必須</span></label>
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; background: var(--base-bg-color);">
+            </div>
+            <div class="form-group" style="margin-bottom: 25px;">
+                <label for="course" style="display: block; margin-bottom: 8px; font-weight: bold;">ご希望のコース</label>
+                <select id="course" name="course" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; background-color: var(--base-bg-color);">
+                    <option value="">選択してください</option>
+                    <option value="ヤマハ音楽教室">ヤマハ音楽教室</option>
+                    <option value="ヤマハ英語教室">ヤマハ英語教室</option>
+                    <option value="ヴァイオリンレッスン">ヴァイオリンレッスン</option>
+                    <option value="その他">その他・無料体験レッスンについて</option>
+                </select>
+            </div>
+            <div class="form-group" style="margin-bottom: 40px;">
+                <label for="message" style="display: block; margin-bottom: 8px; font-weight: bold;">お問い合わせ内容</label>
+                <textarea id="message" name="message" rows="5" style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; background: var(--base-bg-color);"></textarea>
+            </div>
+            <div style="text-align: center;">
+                <button type="submit" class="btn" style="border: none; cursor: pointer; width: 100%; max-width: 300px;">内容を確認して送信する</button>
+            </div>
+        </form>
+    </div>
+</section>
+</main>
+
+<!-- ============================================= -->
+<!-- ========== 7. フッター ========== -->
+<!-- ============================================= -->
+<footer style="background-color: var(--dark-color); color: #fff; padding: 60px 0;">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+        <div>
+            <p style="font-family: var(--font-serif); font-size: 1.2rem; margin: 0;">サウンドステーションあどがわ</p>
+            <p style="font-size: 0.8rem; margin: 5px 0 0; opacity: 0.8;">運営会社：株式会社トリイ</p>
+        </div>
+        <div style="text-align: right; font-size: 0.9rem;">
+             <p style="margin: 0;">滋賀県高島市今津町名小路1-1 (今津本店)</p>
+             <p style="margin: 5px 0;">TEL: 0740-22-2063<a href="tel:0740-22-2063">
+        </div>
+    </div>
+    <div class="container" style="text-align: center; margin-top: 50px; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.2);">
+        <p style="margin: 0; font-size: 0.8rem; opacity: 0.7;">&copy; 2024 TORII Sound Station Adogawa. All Rights Reserved.</p>
+    </div>
+    <style>
+        @media (max-width: 600px) {
+            footer .container:first-of-type {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+             footer .container:first-of-type div:last-child {
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</footer>
+
+</body>
+</html>
